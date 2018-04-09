@@ -1,0 +1,359 @@
+body#template1
+{
+    font-family: Montserrat, sans-serif;
+}
+
+body#template1 .container-fluid .wrapper
+{
+    margin: 0;
+}
+
+.container-fluid,
+.col-md-4
+{
+    padding: 0;
+}
+
+/*HEADER*/
+header.page-header
+{
+    background-image: url("../img/bg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header.page-header,
+header.page-header .bg-color
+{
+    width: 100%;
+    height: 400px;
+}
+
+header.page-header .bg-color:not(.content-header)
+{
+    background-color: black;
+    opacity: 0.7;
+}
+
+header.page-header .content-header
+{
+    width: 600px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+}
+
+h1.title-header
+{
+    font-weight: 700;
+    font-size: 5em;
+    color: #ffffff;
+}
+
+p.description-header
+{
+    font-weight: 300;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+/*END HEADER*/
+
+/*SECTION LEFT*/
+
+section#block-left
+{
+    padding: 40px;
+    background-color:#e5e5e5;
+    height: 100%;
+    
+}
+
+section#block-left .item,
+section#block-right .item
+{
+    margin-top: 50px;
+}
+
+section#block-left .item > .title,
+section#block-right .item > .title
+{
+    font-size: 1.2em;
+    font-weight: 700;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #808481;
+    color:#4f4f4f;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+section#block-left .item .container .row
+{
+    border-bottom: 1px solid #808481;
+    color: #9b9b9b;
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+section#block-left .item .contact,
+section#block-left .item .personal,
+section#block-left .item .links,
+section#block-left .item .contact .row .col-md-3,
+section#block-left .item .personal .row .col-md-3,
+section#block-left .item .links .row .col-md-3
+{
+    padding: 0;
+}
+
+section#block-left .item .contact .row .col-md-9,
+section#block-left .item .personal .row .col-md-9
+{
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+section#block-left .item .links .row
+{
+    border-bottom: 0;
+    margin-bottom: 5px;
+}
+
+section#block-left .item .links
+{
+    margin-top: 20px;
+}
+
+section#block-left .item .links .col-md-auto
+{
+    padding: 0;
+}
+
+section#block-left .item .links .col-md-9
+{
+    padding-left: 0.2rem;
+}
+
+span.sub-title,
+span.link
+{
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: #4f4f4f;
+}
+
+span.link
+{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.image-profile img
+{
+    height: 250px !important;
+    width: 250px !important;
+    margin-top: 20px;
+}
+
+div.icon i
+{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #4f4f4f;
+    border-radius: 50%;
+    color: #ffffff;
+    padding-top: 8px;
+    font-size: 1.8em;
+}
+
+/*BLOCK RIGHT*/
+div.col-md-8
+{
+    background-color: #f7f7f7;
+    padding: 0
+}
+
+section#block-right
+{
+    width: 95%;
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+}
+
+section#block-right > p
+{
+    margin: 0;
+}
+
+section#block-right .work
+{
+    /*margin-top: 20px;*/
+}
+
+h3.sub-title
+{
+    font-weight: 700;
+    font-size: 1.2em; 
+    color: #4f4f4f;
+    margin-bottom: 0;
+}
+
+h3.sub-title i
+{
+    margin: 10px 25px 5px 10px;
+}
+
+.description-work p
+{
+    color: #4f4f4f;
+    font-weight: 400;
+    border-left: 1px solid #4f4f4f;
+    padding: 10px 25px 5px 10px;
+    margin-left: 1.2rem; 
+}
+
+div.year{
+    padding-top: 10px;
+    padding-right: 25px;
+    line-height: normal;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 700;
+    color: #4f4f4f;
+}
+
+small.work-function,
+small.university
+{
+    font-weight: 400;
+    margin-left: 2.8rem;
+    color: #4f4f4f;
+}
+
+.progress
+{
+    height: 5px;
+}
+
+.progress .progress-bar
+{
+    background-color: #4f4f4f;
+}
+
+.progress .html
+{
+    width: 90%;   
+}
+
+.progress .css
+{
+    width: 90%;   
+}
+
+.progress .javascript
+{
+    width: 60%;   
+}
+
+.progress .php
+{
+    width: 80%;   
+}
+
+.progress .laravel
+{
+    width: 60%;   
+}
+
+.progress .bootstrap
+{
+    width: 90%;   
+}
+
+.progress .xml
+{
+    width: 50%;   
+}
+
+.progress .ajax
+{
+    width: 40%;   
+}
+
+.progress .mysql
+{
+    width: 50%;   
+}
+
+.progress .photoshop
+{
+    width: 40%;   
+}
+
+.progress .wordpress
+{
+    width: 40%;   
+}
+
+.progress .joomla
+{
+    width: 40%;   
+}
+
+.progress .git
+{
+    width: 30%;   
+}
+
+.progress .angular
+{
+    width: 10%;   
+}
+
+.skill-description,
+.skill-percent
+{
+    margin: 20px 0 0 0;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.skill .row .col-md-6 .descriptions
+{
+    padding: 0;
+}
+
+
+@media (max-width: 576px)
+{
+    h3.sub-title,
+    div.year
+    {
+        font-size: 0.8em; 
+    }
+}
+
+.hobbies .row
+{
+    margin-top: 20px;   
+}
+.hobbies img
+{
+    width: 50px;
+    height: 50px;
+}
+
+.hobbies .hobbie-description
+{
+    font-weight: 700;
+    color: #4f4f4f;
+    text-transform: uppercase;
+}
+/*END BLOCK RIGHT*/
