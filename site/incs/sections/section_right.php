@@ -22,7 +22,7 @@
                 <div class="col-md-8 col-7">
                     <h3 class="sub-title"><i class="fa fa-circle"></i> UNIPAC</h3>
                 </div>
-                <div class="col-md-4 col-5 year text-right">
+                <div class="col-md-4 col-5 year text-left">
                     2016 - Actual
                 </div>  
             </div>
@@ -52,10 +52,10 @@
             <h2 class="title">Education</h2>
             
             <div class="row">
-                <div class="col-md-8 col-7">
+                <div class="col-md-8 col-12">
                     <h3 class="sub-title"><i class="fa fa-circle"></i> Análise e Desenvolvimento de Sistemas</h3>
                 </div>
-                <div class="col-md-4 col-5 year text-right">
+                <div class="col-md-4 col-12 year text-left">
                     2016 - 2018
                 </div>  
             </div>
@@ -66,10 +66,10 @@
             </div>
             
             <div class="row">
-                <div class="col-md-8 col-7">
+                <div class="col-md-8 col-12">
                     <h3 class="sub-title"><i class="fa fa-circle"></i> Técnico de Informática</h3>
                 </div>
-                <div class="col-md-4 col-5 year text-right">
+                <div class="col-md-4 col-12 year text-left">
                     2015 - 2016
                 </div>  
             </div>
@@ -220,7 +220,7 @@
                     <!--PHOTOSHOP-->
                     <div class="row">
                         <div class="col-md-6 col-6 text-left descriptions">
-                            <p class="skill-description">Adobe Photoshop</p>
+                            <p class="skill-description">Photoshop</p>
                         </div>
                         <div class="col-md-6 col-6 text-right descriptions">
                             <p class="skill-percent">40%</p>
@@ -285,35 +285,68 @@
                 </div>
                 
                 <!--END SKILLS RIGHT-->
-            </div>
-            
-            
+            </div>  
             
         </div>
+        
         <!--END SKILL-->
         
+        <!--COURSES-->
+        <div class="item">
+            <h2 class="title">Courses</h2>
+            
+            <div class="row">
+                <div class="col-md-8 col-7">
+                    <h3 class="sub-title"><i class="fa fa-circle"></i> PHP 7</h3>
+                </div>
+                <div class="col-md-4 col-5 year text-right">
+                    2017
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <small class="university">Sofblue</small>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-8 col-7">
+                    <h3 class="sub-title"><i class="fa fa-circle"></i>Lavavel MVC</h3>
+                </div>
+                <div class="col-md-4 col-5 year text-right">
+                    2018
+                </div>  
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <small class="university">Sofblue</small>
+                </div>
+            </div>
+        </div>
+        <!--END COURSES-->
+
         <!--HOBBIES-->
         
         <div class="item hobbies">
             <h2 class="title">hobbies</h2>
-            <div class="row text-center">
+            <div class="row justify-content-md-center text-center">
                 
-                <div class="col-md-3 col-3">
+                <div class="col-md-3 col-sm-3 col-6 ">
                     <img src="assets/img/soccer-ball-variant.png"><br/>
                     <small class="hobbie-description text-center">Soccer</small>
                 </div>
                 
-                <div class="col-md-3 col-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <img src="assets/img/dollar-sign.png"><br/>
                     <small class="hobbie-description text-center">Investment</small>
                 </div>
                 
-                <div class="col-md-3 col-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <img src="assets/img/movie.png"><br/>
                     <small class="hobbie-description text-center">Movies</small>
                 </div>
                 
-                <div class="col-md-3 col-3">
+                <div class="col-md-3 col-sm-3 col-6">
                     <img src="assets/img/code.png"><br/>
                     <small class="hobbie-description text-center">code</small>
                 </div>

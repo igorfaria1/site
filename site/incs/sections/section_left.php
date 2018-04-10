@@ -99,7 +99,7 @@
                         <i class="fa fa-linkedin text-center"></i>
                     </div>
                     <div class="col-md-9 col-9">
-                        <span class="link"> www.linkedin.com/in/</span>
+                        <a href=""><span class="link"> www.linkedin.com/in/igor-faria10</span></a></a>
                     </div>
                 </div>
                 <div class="row align-items-center">
@@ -107,7 +107,7 @@
                         <i class="fa fa-facebook text-center"></i>
                     </div>
                     <div class="col-md-9 col-9">
-                        <span class="link"> www/facebook.com/</span>
+                        <a href=""><span class="link"> www/facebook.com/igor.faria.10</span></a>
                     </div>
                 </div>
                 <div class="row align-items-center">
@@ -115,7 +115,7 @@
                         <i class="fa fa-instagram text-center"></i>
                     </div>
                     <div class="col-md-9 col-9">
-                        <span class="link"> www.instagram.com/</span>
+                        <a href=""><span class="link"> www.instagram.com/igorfaria___</span></a>
                     </div>
                 </div>
                 <div class="row align-items-center">
@@ -123,7 +123,7 @@
                         <i class="fa fa-github text-center"></i>
                     </div>
                     <div class="col-md-9 col-9">
-                        <span class="link"> www.github.com/</span>
+                        <a href=""><span class="link"> www.github.com/igorfaria1</span></a>
                     </div>
                 </div>
             </div>
